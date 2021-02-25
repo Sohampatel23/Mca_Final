@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".detailed">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="TextView"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="170dp"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total amount saved is :"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="50dp"/>
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="230dp"/>
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Goal is :"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="50dp"/>
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="170dp"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remaining amount :"
+        android:layout_marginTop="170dp"
+        android:layout_marginLeft="50dp"/>
+
+    <TextView
+        android:id="@+id/textView51"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginTop="170dp"
+        android:layout_marginLeft="210dp"/>
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set Target Date"
+        android:layout_marginTop="470dp"
+        android:layout_marginLeft="110dp"/>
+
+    <TextView
+        android:id="@+id/dayleft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" click to check days left"
+        android:layout_marginTop="470dp"
+        android:layout_marginLeft="230dp"/>
+
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+       android:indeterminateOnly="false"
+        android:progressDrawable="@drawable/circle"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="130dp"
+        tools:progress="60"/>
+
+    <TextView
+        android:id="@+id/percent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="60%"
+        android:layout_marginTop="390dp"
+        android:layout_marginLeft="190dp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="500dp"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/daily"
+            android:hint="Daily"
+            android:text="Daily"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="160dp"
+    android:layout_marginTop="500dp"
+    >
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/weekly"
+        android:hint="weekly"
+        android:text="weekly"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox" />
+</com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="500dp"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/monthly"
+            android:hint="monthly"
+            android:text="monthly"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+</RelativeLayout>

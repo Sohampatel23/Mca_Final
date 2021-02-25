@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_dash"
+        android:icon="@drawable/ic_baseline_home_24"
+
+        android:title="Dashboard"
+        ></item>
+
+    <item
+        android:id="@+id/nav_add"
+        android:icon="@drawable/ic_baseline_add_box_24"
+        android:title="Add Target"/>
+</menu>
